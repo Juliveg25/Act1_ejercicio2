@@ -7,6 +7,6 @@ public class Reloj {
     public void mostrarHora() {
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
         String horaActual = sdf.format(calendar.getTime());
-        System.out.println("Current time: " + horaActual);
+        System.out.println("Hora actual: " + horaActual);
     }
 }
